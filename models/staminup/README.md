@@ -1,6 +1,6 @@
 # Stamin-Up - Half-Life inspired Sven Co-op prop
 
-A fan-made Stamin-Up machine with burnt orange enamel, faux walnut panels, five faceted soda columns, a raised running-person sign, a dispensing hatch and a rear service panel. Original mesh and UVs; no ripped game assets.
+A fan-made Stamin-Up machine with burnt orange enamel, faux walnut panels, five faceted soda columns with individual raised selection buttons, a raised running-person sign, a dispensing hatch and a rear service panel. Original mesh and UVs; no ripped game assets.
 
 ## Install in Sven Co-op / J.A.C.K.
 
@@ -29,7 +29,7 @@ To recompile, run the Sven Co-op SDK's `studiomdl.exe staminup.qc` from the `sou
 
 ## Validation
 
-688 triangles, 466 compiler-welded vertices, one bone, one stationary two-frame idle sequence. Four 256-colour diffuse textures: 128x256 front, 256x256 details and two 64x128 side/rear sheets.
+808 triangles, 546 compiler-welded vertices, one bone, one stationary two-frame idle sequence. Four 256-colour diffuse textures: 128x256 front, 256x256 details and two 64x128 side/rear sheets.
 
 Compiled using the installed StudioMDL SC (Dec 21 2020), with no reported errors or warnings. Independently checked IDST v10 headers, file length, embedded texture ranges, finite vertices, mesh indices, triangle counts and idle frames. Checked GLB geometry counts and container structure. Visually reviewed front, three-quarter and rear renders. Desktop/mobile browser controls, rendering and download checks passed. In-game playtest remains outstanding.
 

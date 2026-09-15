@@ -1,8 +1,8 @@
 {
   "compiled_mdl": "valid IDST v10",
-  "file_bytes": 137964,
-  "triangles": 688,
-  "compiled_vertices": 466,
+  "file_bytes": 141044,
+  "triangles": 808,
+  "compiled_vertices": 546,
   "compiled_normals": 54,
   "textures": [
     {
@@ -52,7 +52,7 @@
     ]
   ],
   "glb": "container, embedded images, accessors and triangle count checked",
-  "visual_review": "Reviewed front, three-quarter and rear renders: running sign, soda columns, readable textures and floor origin.",
+  "visual_review": "Reviewed front, three-quarter and rear renders; five raised selection buttons aligned below their corresponding soda columns.",
   "in_game_test": "Not run. Compilation and structural checks are not an in-game test.",
-  "browser_validation": "Passed in headless Edge at desktop 1400x950 and mobile 390x844. No page/WebGL errors; 688 triangles; Front/Rear/Wireframe controls exercised; navigation and download targets exist; no horizontal overflow. Mobile screenshot visually reviewed."
+  "browser_validation": "Desktop/mobile Edge checks passed with 808 triangles, no WebGL or page errors, working controls and valid download targets."
 }

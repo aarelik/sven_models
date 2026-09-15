@@ -191,6 +191,10 @@ for i,x in enumerate((-12,-6,0,6,12)):
  cylinder_z('soda_column_'+str(i),x,-15.8,[(42,1.8),(61.5,1.8)],8,'soda'+str(i))
  box('column_bottom_'+str(i),x-2.1,x+2.1,-18,-14,41,42.4,'metal')
  box('column_cap_'+str(i),x-2.1,x+2.1,-18,-14,61.2,63,'metal')
+# Five individual raised selection buttons aligned with the soda columns.
+for i,x in enumerate((-12,-6,0,6,12)):
+ box('flavour_button_mount_'+str(i),x-1.7,x+1.7,-17.4,-14,37.8,40,'dark')
+ box('flavour_button_'+str(i),x-1.25,x+1.25,-18.2,-17.3,38.2,39.6,'metal')
 box('sign_support',-1.5,1.5,-3,0,76,82,'metal')
 def sign():
  group('round_perk_sign');cz=84.5;r=8.7;n=16
