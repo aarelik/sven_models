@@ -1,0 +1,2 @@
+Built-in image generation; original image saved as front-art.png.
+Brief: flat 1:2 UV diffuse front panel for classic Double Tap Root Beer vending machine; muted weathered mustard yellow enamel; cream round DOUBLE TAP / ROOT BEER logo in upper 45%; scratched steel waist from 46% to 63%; lower access door with Double Tap script and ICE COLD ROOT BEER; rust concentrated at edges; no perspective, sides, shadows or modern PBR highlights. Reduced to 128x256 indexed 256-colour BMP for GoldSrc.
