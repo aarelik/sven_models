@@ -1,0 +1,2 @@
+Built-in image generation. Original is front-art.png.
+Brief: flat 1:2 UV diffuse front for Stamin-Up, muted burnt orange enamel, STAMIN-UP header, dark upper display window for separate 3D columns, orange middle dispensing panel, lower walnut veneer door with KEEP ON RUNNING / ENERGY SODA. GoldSrc-style diffuse texture, no perspective, modern PBR or cast shadows. Reduced to 128x256 with 256 indexed colours.

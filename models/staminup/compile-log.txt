@@ -1,0 +1,19 @@
+StudioMDL SC (Dec 21 2020 23:14:21)
+Studio Model Compiler for Sven Co-op
+
+entering staminup.qc
+grabbing ./staminup_reference.smd
+grabbing ./idle.smd
+BMP cabinet.bmp [128 256] (100%)   33536 bytes
+BMP details.bmp [256 256] (100%)   66304 bytes
+BMP sides.bmp [64 128] (100%)    8960 bytes
+BMP rear.bmp [64 128] (100%)    8960 bytes
+---------------------
+writing ../svencoop_addon/models/zombies/staminup_hl1.mdl:
+bones        388 bytes (1)
+sequences    296 bytes (2 frames) [0:02]
+vertices    6764 bytes (466 vertices, 54 normals)
+mesh       12240 bytes (688 tris, 369 strips)
+models     19192 bytes
+textures  118088 bytes
+total     137964 bytes

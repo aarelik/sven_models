@@ -9,4 +9,10 @@ Low-poly Half-Life inspired props for Sven Co-op.
 
 Double Tap includes a compiled MDL, GLB, editable OBJ/SMD/QC source, indexed textures and previews. Its SDK compilation and structural checks passed; in-game testing is pending. The Juggernog model was tested in game by the repository owner.
 
+- [Stamin-Up interactive viewer](https://aarelik.github.io/sven_models/staminup.html)
+- [Stamin-Up complete model pack](https://aarelik.github.io/sven_models/staminup-hl1-model-pack.zip)
+- [Stamin-Up installation and source notes](models/staminup/README.md)
+
+Stamin-Up includes compiled MDL, GLB, editable source and previews. SDK compilation and structural checks passed; in-game testing is pending.
+
 Future models are added here with their own viewer and downloads.

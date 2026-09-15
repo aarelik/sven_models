@@ -1,0 +1,58 @@
+{
+  "compiled_mdl": "valid IDST v10",
+  "file_bytes": 137964,
+  "triangles": 688,
+  "compiled_vertices": 466,
+  "compiled_normals": 54,
+  "textures": [
+    {
+      "name": "cabinet.bmp",
+      "size": [
+        128,
+        256
+      ],
+      "flags": 0
+    },
+    {
+      "name": "details.bmp",
+      "size": [
+        256,
+        256
+      ],
+      "flags": 0
+    },
+    {
+      "name": "sides.bmp",
+      "size": [
+        64,
+        128
+      ],
+      "flags": 0
+    },
+    {
+      "name": "rear.bmp",
+      "size": [
+        64,
+        128
+      ],
+      "flags": 0
+    }
+  ],
+  "sequences": "idle: 2 frames, 1 fps",
+  "compiled_vertex_bounds": [
+    [
+      -21.5,
+      -19.200000762939453,
+      0.0
+    ],
+    [
+      21.5,
+      13.5,
+      93.19999694824219
+    ]
+  ],
+  "glb": "container, embedded images, accessors and triangle count checked",
+  "visual_review": "Reviewed front, three-quarter and rear renders: running sign, soda columns, readable textures and floor origin.",
+  "in_game_test": "Not run. Compilation and structural checks are not an in-game test.",
+  "browser_validation": "Passed in headless Edge at desktop 1400x950 and mobile 390x844. No page/WebGL errors; 688 triangles; Front/Rear/Wireframe controls exercised; navigation and download targets exist; no horizontal overflow. Mobile screenshot visually reviewed."
+}
