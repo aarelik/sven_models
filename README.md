@@ -1,1 +1,1 @@
-https://aarelik.github.io/sven-models
+ https://aarelik.github.io/sven_models/
