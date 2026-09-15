@@ -1,0 +1,19 @@
+StudioMDL SC (Dec 21 2020 23:14:21)
+Studio Model Compiler for Sven Co-op
+
+entering mysterybox.qc
+grabbing ./mysterybox_reference.smd
+grabbing ./idle.smd
+BMP sides.bmp [256 128] (100%)   33536 bytes
+BMP rear.bmp [256 128] (100%)   33536 bytes
+BMP details.bmp [256 256] (100%)   66304 bytes
+BMP cabinet.bmp [256 128] (100%)   33536 bytes
+---------------------
+writing ../svencoop_addon/models/zombies/mysterybox_hl1.mdl:
+bones        388 bytes (1)
+sequences    296 bytes (2 frames) [0:02]
+vertices    3068 bytes (224 vertices, 12 normals)
+mesh        5804 bytes (336 tris, 168 strips)
+models      9060 bytes
+textures  167240 bytes
+total     176984 bytes

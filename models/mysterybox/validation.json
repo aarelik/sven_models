@@ -1,0 +1,57 @@
+{
+  "compiled_mdl": "valid IDST v10",
+  "file_bytes": 176984,
+  "triangles": 336,
+  "compiled_vertices": 224,
+  "compiled_normals": 12,
+  "textures": [
+    {
+      "name": "sides.bmp",
+      "size": [
+        256,
+        128
+      ],
+      "flags": 0
+    },
+    {
+      "name": "rear.bmp",
+      "size": [
+        256,
+        128
+      ],
+      "flags": 0
+    },
+    {
+      "name": "details.bmp",
+      "size": [
+        256,
+        256
+      ],
+      "flags": 0
+    },
+    {
+      "name": "cabinet.bmp",
+      "size": [
+        256,
+        128
+      ],
+      "flags": 0
+    }
+  ],
+  "sequences": "idle: 2 frames, 1 fps",
+  "compiled_vertex_bounds": [
+    [
+      -40.5,
+      -17.149999618530273,
+      0.0
+    ],
+    [
+      40.5,
+      16.799999237060547,
+      30.600000381469727
+    ]
+  ],
+  "glb": "container, embedded images, accessors and triangle count checked",
+  "visual_review": "Reviewed front, three-quarter and rear renders; closed lid, question marks, straps, latch and carrying handles.",
+  "in_game_test": "Not run. Compilation and structural checks are not an in-game test."
+}

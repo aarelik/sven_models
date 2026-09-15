@@ -16,3 +16,6 @@ Double Tap includes a compiled MDL, GLB, editable OBJ/SMD/QC source, indexed tex
 Stamin-Up includes compiled MDL, GLB, editable source and previews. SDK compilation and structural checks passed; in-game testing is pending.
 
 Future models are added here with their own viewer and downloads.
+
+- [Mystery Box viewer](https://aarelik.github.io/sven_models/mysterybox.html)
+- [Mystery Box model pack](https://aarelik.github.io/sven_models/mysterybox-hl1-model-pack.zip)
