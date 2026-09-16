@@ -41,17 +41,17 @@
   "sequences": "idle: 2 frames, 1 fps",
   "compiled_vertex_bounds": [
     [
-      -40.5,
+      -48.599998474121094,
       -17.149999618530273,
       0.0
     ],
     [
-      40.5,
+      48.599998474121094,
       16.799999237060547,
       30.600000381469727
     ]
   ],
   "glb": "container, embedded images, accessors and triangle count checked",
-  "visual_review": "Reviewed front, three-quarter and rear renders; closed lid, question marks, straps, latch and carrying handles.",
+  "visual_review": "Reviewed matching worn wood on lid and sides, opposite-facing question marks, and 20 percent wider geometry.",
   "in_game_test": "Not run. Compilation and structural checks are not an in-game test."
 }

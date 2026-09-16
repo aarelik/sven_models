@@ -9,20 +9,10 @@ materials={};regions={};rng=np.random.default_rng(51)
 def save_tex(name,im):
  im=im.convert('RGB').quantize(colors=256,method=Image.Quantize.MEDIANCUT)
  im.save(TEX/(name+'.bmp'));im.convert('RGB').save(TEX/(name+'.png'));materials[name]=im.convert('RGB')
-save_tex('cabinet',Image.open(OUT/'lid-art.png').resize((256,128),Image.Resampling.LANCZOS))
-# Authored plank sheets, with long grain, seams and nail heads.
-for name in ['sides','rear']:
- w,h=256,128;arr=np.zeros((h,w,3),dtype=np.uint8)
- for y in range(h):
-  for x in range(w):
-   v=9*math.sin(y*2.3+math.sin(x*.035)*1.8)+5*math.sin(y*.4)+rng.normal(0,3)
-   arr[y,x]=np.clip(np.array([87,64,42])+v,0,255)
- im=Image.fromarray(arr);d=ImageDraw.Draw(im)
- for y in [1,32,64,96,126]:
-  d.line((0,y,255,y),fill=(28,24,19),width=2);d.line((0,y+2,255,y+2),fill=(113,87,59))
- for x in (9,246):
-  for y in (12,45,77,108):d.ellipse((x-2,y-2,x+2,y+2),fill=(37,37,30));d.point((x-1,y-1),fill=(138,130,104))
- save_tex(name,im)
+atlas=Image.open(OUT/'wood-atlas-v2.png').convert('RGB');w,h=atlas.size
+save_tex('cabinet',atlas.crop((0,0,w,h//2)).resize((256,128),Image.Resampling.LANCZOS))
+wood=atlas.crop((0,h//2,w,h)).resize((256,128),Image.Resampling.LANCZOS)
+save_tex('sides',wood);save_tex('rear',wood)
 details=Image.new('RGB',(256,256),(60,59,49));d=ImageDraw.Draw(details)
 for name,rect,col in [('metal',(2,2,61,61),(82,85,73)),('dark',(66,2,125,61),(29,31,27)),('red',(130,2,189,61),(77,55,34)),('ivory',(194,2,253,61),(110,89,59)),('black',(2,66,61,125),(22,25,22))]:
  regions[name]=rect;d.rectangle(rect,fill=col)
@@ -83,6 +73,10 @@ for side in (-1,1):
  box('carry_handle',x0,x1,-6,6,13,14.6,'metal')
  for y in (-5,5):
   x0,x1=sorted((side*37.8,side*40.5));box('handle_arm',x0,x1,y-.7,y+.7,14,16,'metal')
+# Widen the chest by 20 percent, retaining its depth and height.
+for t in tris:
+ for p in t['p']:p[0]*=1.2
+
 # All geometry has one root bone, ground-origin and flat face normals.
 (SRC/'mesh.json').write_text(json.dumps({'triangles':tris,'regions':regions}),encoding='utf8')
 smd=['version 1','nodes','0 "root" -1','end','skeleton','time 0','0 0 0 0 0 0 0','end','triangles']
@@ -98,8 +92,8 @@ $cdtexture "textures"
 $scale 1.0
 $body "body" "mysterybox_reference"
 $sequence "idle" "idle" fps 1 loop
-$bbox -42 -18 0 42 18 31
-$cbox -42 -18 0 42 18 31
+$bbox -49 -18 0 49 18 31
+$cbox -49 -18 0 49 18 31
 $eyeposition 0 -16 48
 ''')
 (OUT/'svencoop_addon/models/zombies').mkdir(parents=True,exist_ok=True)

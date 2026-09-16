@@ -5,6 +5,6 @@ $cdtexture "textures"
 $scale 1.0
 $body "body" "mysterybox_reference"
 $sequence "idle" "idle" fps 1 loop
-$bbox -42 -18 0 42 18 31
-$cbox -42 -18 0 42 18 31
+$bbox -49 -18 0 49 18 31
+$cbox -49 -18 0 49 18 31
 $eyeposition 0 -16 48
