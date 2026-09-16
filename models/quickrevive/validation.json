@@ -1,0 +1,57 @@
+{
+  "compiled_mdl": "valid IDST v10",
+  "file_bytes": 128836,
+  "triangles": 346,
+  "compiled_vertices": 241,
+  "compiled_normals": 53,
+  "textures": [
+    {
+      "name": "cabinet.bmp",
+      "size": [
+        128,
+        256
+      ],
+      "flags": 0
+    },
+    {
+      "name": "details.bmp",
+      "size": [
+        256,
+        256
+      ],
+      "flags": 0
+    },
+    {
+      "name": "sides.bmp",
+      "size": [
+        64,
+        128
+      ],
+      "flags": 0
+    },
+    {
+      "name": "rear.bmp",
+      "size": [
+        64,
+        128
+      ],
+      "flags": 0
+    }
+  ],
+  "sequences": "idle: 2 frames, 1 fps",
+  "compiled_vertex_bounds": [
+    [
+      -21.5,
+      -17.0,
+      0.0
+    ],
+    [
+      21.5,
+      13.5,
+      97.19999694824219
+    ]
+  ],
+  "glb": "container, embedded images, accessors and triangle count checked",
+  "visual_review": "Reviewed front, three-quarter and rear renders; blue cabinet, cream panel, sloped top, nameboard, rescue sign and bottle hatch.",
+  "in_game_test": "Not run. Compilation and structural checks are not an in-game test."
+}

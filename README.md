@@ -19,3 +19,6 @@ Future models are added here with their own viewer and downloads.
 
 - [Mystery Box viewer](https://aarelik.github.io/sven_models/mysterybox.html)
 - [Mystery Box model pack](https://aarelik.github.io/sven_models/mysterybox-hl1-model-pack.zip)
+
+- [Quick Revive viewer](https://aarelik.github.io/sven_models/quickrevive.html)
+- [Quick Revive model pack](https://aarelik.github.io/sven_models/quickrevive-hl1-model-pack.zip)

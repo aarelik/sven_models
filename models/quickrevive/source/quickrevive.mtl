@@ -1,0 +1,31 @@
+newmtl cabinet
+Ka 0.4 0.4 0.4
+Kd 1 1 1
+Ks 0 0 0
+d 1
+illum 1
+map_Kd textures/cabinet.png
+
+newmtl sides
+Ka 0.4 0.4 0.4
+Kd 1 1 1
+Ks 0 0 0
+d 1
+illum 1
+map_Kd textures/sides.png
+
+newmtl rear
+Ka 0.4 0.4 0.4
+Kd 1 1 1
+Ks 0 0 0
+d 1
+illum 1
+map_Kd textures/rear.png
+
+newmtl details
+Ka 0.4 0.4 0.4
+Kd 1 1 1
+Ks 0 0 0
+d 1
+illum 1
+map_Kd textures/details.png

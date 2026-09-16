@@ -1,0 +1,19 @@
+StudioMDL SC (Dec 21 2020 23:14:21)
+Studio Model Compiler for Sven Co-op
+
+entering quickrevive.qc
+grabbing ./quickrevive_reference.smd
+grabbing ./idle.smd
+BMP cabinet.bmp [128 256] (100%)   33536 bytes
+BMP details.bmp [256 256] (100%)   66304 bytes
+BMP sides.bmp [64 128] (100%)    8960 bytes
+BMP rear.bmp [64 128] (100%)    8960 bytes
+---------------------
+writing ../svencoop_addon/models/zombies/quickrevive_hl1.mdl:
+bones        388 bytes (1)
+sequences    296 bytes (2 frames) [0:02]
+vertices    3828 bytes (241 vertices, 53 normals)
+mesh        6048 bytes (346 tris, 177 strips)
+models     10064 bytes
+textures  118088 bytes
+total     128836 bytes
